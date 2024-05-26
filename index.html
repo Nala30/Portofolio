@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang Saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#riwayat">Riwayat Hidup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Hubungi Saya</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron jumbotron-fluid text-center bg-info text-black">
+        <div class="container">
+            <h1 class="display-4">Hello, Saya Mira Amdina F.T</h1>
+            <p class="lead">SMA 3 Kota Serang</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="tentang" class="container my-5">
+        <h2 class="text-center">Tentang Saya</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/foto.jpg" class="img-fluid rounded-circle mb-3" alt="Profile Picture">
+            </div>
+            <div class="col-md-8">
+                <p>Saya memiliki hobi bermain basket dan rutin bermain di akhir pekan bersama teman-teman. Basket bukan hanya sekadar
+                olahraga bagi saya, tetapi juga cara untuk menjaga kesehatan dan berinteraksi dengan orang lain. Moto hidup saya adalah
+                "Di setiap kesulitan, ada kemudahan." Moto ini selalu mengingatkan saya untuk tetap positif dan tidak menyerah ketika
+                menghadapi tantangan. Saya sangat menyukai olahraga, karena olahraga membantu saya menjaga keseimbangan hidup dan
+                meningkatkan kebugaran fisik. Selain basket, saya juga tertarik untuk mencoba berbagai jenis olahraga lainnya yang
+                mendukung gaya hidup sehat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="riwayat" class="container my-5">
+        <h2 class="text-center">Riwayat Hidup</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-6 shadow-sm">
+                    <img src="images/paskibra.jpeg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Juara Mula 3 Paskibra</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-6 shadow-sm">
+                    <img src="images/tekwondo.jpeg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mendali Perak Taekwondo</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-5">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Technical Skills</h4>
+                <ul>
+                    <li>Teakwondo</li>
+                    <li>Paskibra</li>
+                    <li>Bulu Tangkis</li>
+                    <li>Basket</li>
+                    <li>Volly</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Soft Skills</h4>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Time Management</li>
+                    <li>Critical Thinking</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Hubungi Saya</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Nama</label>
+                    <input type="text" class="form-control" id="name" placeholder="Namamu">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Emailmu">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Pesanmu"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-primary text-white">
+        <p>&copy; 2024 Mira. All rights reserved.</p>
+        <p>Follow me on
+            <a href="https://www.instagram.com/miraamdina_" class="text-white">Instagram</a>,
+            <a href="http://www.tiktok.com/@miraamdna._" class="text-white">Tiktok</a>,
+            <a href="#" class="text-white">Twitter</a>
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
